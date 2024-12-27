@@ -1,0 +1,54 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+env/
+venv/
+*.venv
+.Python
+
+# Environment variables
+*.env
+
+# Streamlit cache and logs
+.streamlit/
+.stcache/
+.streamlit-logs/
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Python package build files
+build/
+dist/
+*.egg-info/
+
+# Pytest cache
+.pytest_cache/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Twilio JSON files (if applicable)
+*.json
+twilio_config.json
+
+# Ignore large dataset files
+*.csv
+*.json
+*.xlsx
+*.parquet
+
+# Other temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
